@@ -1,0 +1,277 @@
+header img{
+    height:700px;
+    width:100%;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(5, 5, 5);
+    display: grid;
+    grid-template-columns: 1fr 300px 200px;
+    margin: 0;
+    padding:0;
+    cursor: text;
+    opacity: 0.6;
+    box-shadow: 0 0 8px #3b3b3b;
+    z-index: 2;
+}
+.header-logo{
+    margin-left: 50px;
+}
+
+.header-logo a{
+    margin-left: 5px;
+    line-height: 80px;
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+}
+.header-list{
+    margin-top: 30px;
+    height: 20px;
+}
+.header-list ul{
+    display: flex;
+}
+
+.header-list a{
+    user-select: none;
+    text-decoration:none;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+.header-list li{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.header-list li:hover{
+    border-bottom: 3px solid white;
+    transition: all 0.3s;
+}
+.header-SNS{
+    cursor: text;
+}
+.header-SNS a{
+    line-height: 80px;
+    margin-left: 20px;
+    color:white;
+    cursor: pointer;
+}
+.header-SNS a:hover{
+    color:rgb(109, 107, 107);
+}
+/* ハンバーガーメニュー用 */
+.head-icon{
+    display: none;
+}
+#show{
+    display: none;
+}
+#menu{
+    display: none;
+}
+/* ハンバーガーメニュー用ここまで */
+
+.content{
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.list-1{
+    margin-top: 50px;
+}
+
+.list-1 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-1 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-1 p{
+    line-height: 40px;
+}
+
+.list-2{
+    margin-top: 50px;
+}
+.list-2 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-2 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-2 p{
+    line-height: 40px;
+}
+
+.list-3{
+    margin-top: 50px;
+}
+.list-3 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-3 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-3 p{
+    line-height: 40px;
+}
+.list-4{
+    margin-top: 50px;
+}
+.list-4 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-4{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-4 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-4 p{
+    line-height: 40px;
+}
+.list-5{
+    margin-top: 50px;
+}
+.list-5 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-5{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-5 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-5 p{
+    line-height: 40px;
+}
+.list-6{
+    margin-top: 50px;
+}
+.list-6 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-6{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-6 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-6 p{
+    line-height: 40px;
+}
+.list-7{
+    margin-top: 50px;
+}
+.list-7 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(64, 64, 65);
+    border-bottom:3px solid rgb(124, 123, 123);
+}
+.details-7{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.details-7 img{
+    width:100%;
+    border-radius: 10%;
+}
+.details-7 p{
+    line-height: 40px;
+}
+/* フッターのCSS */
+footer{
+    height: 50px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    line-height: 50px;
+    color:white;
+}
+/* フッターのCSSここまで */
+
+
+/* ページトップに行くボタンここから */
+#page-top{
+    position: fixed;
+    bottom:60px;
+    right:60px;
+    font-size: 20px;
+    width:50px;
+    height: 50px;
+    box-shadow: 0 0 6px #646363;
+    border-radius: 50%;
+}
+#page-top a{
+    background: rgb(252, 247, 247);
+    text-decoration: none;
+    color: #070707;
+    line-height: 50px;
+    text-align: center;
+    display:block;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+#page-top a:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+/* ページトップに行くボタンここまで */
